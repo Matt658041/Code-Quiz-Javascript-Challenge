@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Quiz Challenge</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div>
+            <button class="btnHeader" id="view-high-scores">High Scores</button>
+        </div>
+        <div>
+            <p>Time: <span id="timeLeft">xxx</span></p>
+        </div>
+    </header>
+
+    <div id="mainDiv">
+        <div id="gridContainer">
+            <p id="questionDisplay">Javascript Quiz Challenge!</p>
+            <p id="finalScoreDisplay"></p>
+            <p id="enterInitials"></p>
+            <textarea id= enterIntialsTextArea ></textarea>
+            <button class="btn" id="start-quiz">Start Quiz</button>
+                <button class="btn" id="answer1"></button>
+                <button class="btn" id="answer2"></button>
+                <button class="btn" id="answer3"></button>
+                <button class="btn" id="answer4"></button>
+                <button class="btn" id="submitScore"></button> 
+
+        </div>
+        <div id="answerCorrectWrongGrid"></div>
+        <p id="answerCorrectWrong"></p>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
