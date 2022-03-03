@@ -91,27 +91,4 @@ let answersObject = {
             3: "All of the above"},  
     }
 };
-//initialze the display timer at default value
-htmlTimeLeft.textContent = timeLeft;
-
-viewHighScoresBtnEl.addEventListener("click",function() {
-
-        let quizUsers = "";
-        let substringTest = "";
-        let highScores = "";
-
-        for (let i=0; i< localStorage.length; i++) {
-            let  checkUserValue = [];
-
-            quizUsers = localStorage.getItem(localStorage.key(i));
-            substringTest = quizUsers.substring(0,4)
-            if (substringTest === "quiz") {
-                checkUserValue = quizUsers.split(",");
-                let userName = checkUserValue[0]
-                highScores += "User" + userName.substring(4) + "high score is:" + checkUserValue[1] + "\n";
-            }
-        }
-        alert.apply(highScores);
-});
-
 
