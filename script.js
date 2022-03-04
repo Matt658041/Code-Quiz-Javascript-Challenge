@@ -27,30 +27,30 @@ var questionsArray = [
 {
     question: "Commonly used datatypes DO NOT include?",
     imageSrc: "",
-    answerChoice: ["Strings", "Boolean", "Alerts", "Numbers"],
+    answerChoice: ["1.Strings", "2.Boolean", "3.Alerts", "4.Numbers"],
     correctAnswer: 2
 }, 
 {
     question: "The condition statement if/else is enclosed with the following",
     imageSrc: "",
-    answerChoice: ["Parentheses", "Curly Brackets", "Quotes", "Square Brackets"],
+    answerChoice: ["1.Parentheses", "2.Curly Brackets", "3.Quotes", "4.Square Brackets"],
     correctAnswer: 0
 },
 {
     question: "Arrays can be used to store the following",
     imageSrc: "",
-    answerChoice: ["Number of strings", "Other Arrays", "All of the above", "Booleans"],
+    answerChoice: ["1.Number of strings", "2.Other Arrays", "3.All of the above", "4.Booleans"],
     correctAnswer: 2
 }, 
 {
     question: "A very useful tool to debug an array is?",
     imageSrc: "",
-    answerChoice: ["Javascript", "Terminal/Bash", "Console.log", "Foor Loop"],
+    answerChoice: ["1.Javascript", "2.Terminal/Bash", "3.Console.log", "4.Foor Loop"],
     correctAnswer: 2
 },
 {
     question: "Strings must be enclosed with",
-    answerChoice: ["Parentheses", "Curly Brackets", "Quotes", "Commas"],
+    answerChoice: ["1.Parentheses", "2.Curly Brackets", "3.Quotes", "4.Commas"],
     correctAnswer: 1
 }];
 
@@ -246,6 +246,7 @@ answerChoiceD.addEventListener('click', function(event) {
         function view_high_scores(){
         
         // changing the screen output
+        
             document.getElementById("quizContainer").style.display="none";
             document.getElementById("game_over").style.display= "none";
             document.getElementById("high_scores_page").style.display="block";
