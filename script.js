@@ -25,32 +25,32 @@
 
 var questionsArray = [
 {
-    question: "Question: What is the HTML tag under which you can write the JavaScript code?",
+    question: "Commonly used datatypes DO NOT include?",
     imageSrc: "",
-    answerChoice: ["A) <javascript>", "B) <scripted>", "C) <script>", "D) <js>"],
+    answerChoice: ["Strings", "Boolean", "Alerts", "Numbers"],
     correctAnswer: 2
 }, 
 {
-    question: "Question: What are variables used for in JavaScript Programs?",
+    question: "The condition statement if/else is enclosed with the following",
     imageSrc: "",
-    answerChoice: ["A) Storing numbers, dates, or other values", "B) Varying randomly", "D) Causing high-school algebra flashbacks", "D) None of the above"],
+    answerChoice: ["Parentheses", "Curly Brackets", "Quotes", "Square Brackets"],
     correctAnswer: 0
 },
 {
-    question: "Question: Which method adds a new item to the end of an array and returns the new length?",
+    question: "Arrays can be used to store the following",
     imageSrc: "",
-    answerChoice: ["A) shift()", "B) return() ", "C) push() ", "D) pop()"],
+    answerChoice: ["Number of strings", "Other Arrays", "All of the above", "Booleans"],
     correctAnswer: 2
 }, 
 {
-    question: "Question: Which of the following can't be done with client-side JavaScript?",
+    question: "A very useful tool to debug an array is?",
     imageSrc: "",
-    answerChoice: ["A) Sending a form's contents by email", "B) Validating a form", "C) Storing the form's contents to a database file on the server", "D) None of the above"],
+    answerChoice: ["Javascript", "Terminal/Bash", "Console.log", "Foor Loop"],
     correctAnswer: 2
 },
 {
-    question: "Question: Which of the following are capabilities of functions in JavaScript?",
-    answerChoice: ["A) Return a value", "B) Accept parameters", "C) Accept parameters and Return a value", "D) All of the above"],
+    question: "Strings must be enclosed with",
+    answerChoice: ["Parentheses", "Curly Brackets", "Quotes", "Commas"],
     correctAnswer: 1
 }];
 
