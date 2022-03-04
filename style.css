@@ -9,7 +9,7 @@ header {
   display: flex;
   justify-content: space-between;
 }
-h2 {
+#high_scores{
   font-weight: bold;
 }
 body {
